@@ -1,0 +1,57 @@
+body { 
+	margin: 0;
+} 
+.logo {
+	opacity: 0.232323232;
+	margin: 3;
+	position: fixed;
+	height: 60;
+	width: 120;
+	background-color: rgb(129 129 129);
+}
+.logo:hover {
+	opacity: 1;
+}
+.logos {
+	height: 1000000;
+	width: 69;
+	background-color: yellow;
+}
+.bar {
+	opacity: 0.5;
+	position: fixed;
+	margin: 3;
+	right: 0;
+	height: 40;
+	width: 300;
+	background-color: rgb(129 129 129);
+}
+.bar:hover {
+	opacity: 1;
+}
+.a:hover {
+	display: inline;
+	margin: 0 3;
+	height: 40;
+	width: 40;
+	float: right;
+	color: rgb(255 255 255);
+	background-color: #cfcfcf;;
+	
+}
+.a {
+	
+	display: inline;
+	float: right;
+	margin: 0 3;
+	height: 40;
+	width: 40;
+	background-color: rgb(150 150 150);
+	color: rgb(0 0 0);
+}
+.b.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
