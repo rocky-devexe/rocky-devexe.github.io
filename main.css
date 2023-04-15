@@ -2,22 +2,23 @@ body {
 	margin: 0;
 } 
 .logo {
+	top: 3;
 	opacity: 0.232323232;
 	margin: 3;
+	left: 0;
 	position: fixed;
 	height: 60;
 	width: 120;
 	background-color: rgb(129 129 129);
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
 }
 .logo:hover {
 	opacity: 1;
 }
-.logos {
-	height: 1000000;
-	width: 69;
-	background-color: yellow;
-}
 .bar {
+	top: 3;
 	opacity: 0.5;
 	position: fixed;
 	margin: 3;
@@ -25,6 +26,9 @@ body {
 	height: 40;
 	width: 300;
 	background-color: rgb(129 129 129);
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
 }
 .bar:hover {
 	opacity: 1;
@@ -37,12 +41,11 @@ body {
 	float: right;
 	color: rgb(255 255 255);
 	background-color: #cfcfcf;;
-	
 }
 .a {
-	
 	display: inline;
 	float: right;
+	
 	margin: 0 3;
 	height: 40;
 	width: 40;
@@ -50,8 +53,38 @@ body {
 	color: rgb(0 0 0);
 }
 .b.fill-div {
-    display: block;
     height: 100%;
     width: 100%;
     text-decoration: none;
+}
+.c {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.menu {
+	display: flex;
+	height: 40;
+	width: 40;
+	background-color: #483e2c;
+}
+.hej {
+	desplay: flex;
+	height: 40;
+	width: 40;
+}
+.text {
+	margin-top: 100px;
+}
+.dtr {
+	height: 150px;
+	width: 100%;
+	background-color: gray;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-color: black;
+}
+.e {
+	display: flex;
+	position: static;
 }
