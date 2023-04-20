@@ -1,6 +1,9 @@
 body { 
 	margin: 0;
 } 
+body a {
+	text-decoration: none;
+}
 .logo {
 	top: 3;
 	opacity: 0.232323232;
@@ -45,7 +48,6 @@ body {
 .a {
 	display: inline;
 	float: right;
-	
 	margin: 0 3;
 	height: 40;
 	width: 40;
@@ -82,9 +84,96 @@ body {
 	background-color: gray;
 	border-width: 1px;
 	border-bottom-style: solid;
+	border-top-style: solid;
 	border-color: black;
+	border-radius: 25px 0 0 25px;
+}
+.dtr:hover {
+	background: #afafaf;
+}
+.dtr2:hover {
+	background: #afafaf;
+}
+.dtr2 {
+	height: 150px;
+	width: 100%;
+	background-color: grey;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-color: black;
+	border-radius: 25px 0 0 25px;
 }
 .e {
+	position: relative;
+	color: white;
+	left: 160px;
+	text-decoration: none;
+	border-radius: 25px;
+	width: 500px;
+}
+.f {
+	position: relative;
+	bottom: 92px;
+	border-radius: 25px;
+}
+.f2 {
+	position: relative;
+	bottom: 114px;
+	border-radius: 25px;
+}
+.e2 {
+	position: relative;
+	color: white;
+	left: 160px;
+	width: 300px;
+	bottom: 20px;
+	text-decoration: none;
+	border-radius: 25px 0 0 25px;
+}
+.g {
+	font-family: 'Ubuntu', sans-serif;
+	height: 0px;
+	width: 550px;
 	display: flex;
-	position: static;
+	background-color: red;
+	position: absolute;
+	bottom: 50%;
+	left: -50%;
+}
+.h {
+	height: 100%;
+	width: 100%;
+	background-color: #5F6368;
+}
+.i {
+	height: 400px;
+	width: 400px;
+	display: flex;
+	background-color: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -200px 0 0 -50px;
+} 
+.j {
+	font-family: 'Ubuntu', sans-serif;
+	height: 0px;
+	width: 400px;
+	display: flex;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: -10%;
+}
+.k {
+	position: absolute;
+	width: 200px;
+	bottom: 60px;
+	left: -50%;
+}
+.l {
+	position: absolute;
+	width: 200px;
+	bottom: 60px;
+	left: 50%;
 }
