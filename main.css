@@ -12,10 +12,11 @@ body a {
 	position: fixed;
 	height: 60;
 	width: 120;
-	background-color: rgb(129 129 129);
+	background-color: #2E3134;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
+	border-radius: 20px;
 }
 .logo:hover {
 	opacity: 1;
@@ -28,31 +29,29 @@ body a {
 	right: 0;
 	height: 40;
 	width: 300;
-	background-color: rgb(129 129 129);
+	background-color: #2E3134;
 	border-width: 1px;
 	border-style: solid;
 	border-color: black;
+	border-radius: 20px;
 }
 .bar:hover {
 	opacity: 1;
 }
 .a:hover {
-	display: inline;
-	margin: 0 3;
-	height: 40;
-	width: 40;
-	float: right;
 	color: rgb(255 255 255);
-	background-color: #cfcfcf;;
+	background-color: #cfcfcf;
+	border-radius: 100px; 
 }
 .a {
+	border-radius: 0px;
 	display: inline;
-	float: right;
-	margin: 0 3;
 	height: 40;
 	width: 40;
-	background-color: rgb(150 150 150);
+	margin: 0 3;
 	color: rgb(0 0 0);
+	position: relative;
+	left: 10px;
 }
 .b.fill-div {
     height: 100%;
@@ -71,9 +70,28 @@ body a {
 	background-color: #483e2c;
 }
 .hej {
-	desplay: flex;
-	height: 40;
-	width: 40;
+	position: relative;
+	float: right;
+	margin: 0 12px;
+	border-radius: 20px;
+	width: 200px;
+	height: 400px;
+	background: #4f4f4f;
+}
+.opb {
+	width: auto;
+	height: 45px;
+	position: relative;
+	background-color: #757474;
+	border-radius: 20px 20px 0 0;
+}
+.xb {
+	position: relative;
+	height: 39px;
+	width: 39px;
+	float: right;
+	top: 20%;
+	background-color: none;
 }
 .text {
 	margin-top: 100px;
@@ -133,12 +151,11 @@ body a {
 .g {
 	font-family: 'Ubuntu', sans-serif;
 	height: 0px;
-	width: 550px;
 	display: flex;
-	background-color: red;
 	position: absolute;
 	bottom: 50%;
-	left: -50%;
+	left: -15%;
+	color: white;
 }
 .h {
 	height: 100%;
@@ -160,20 +177,17 @@ body a {
 	height: 0px;
 	width: 400px;
 	display: flex;
-	background-color: red;
 	position: absolute;
+	color: #ffffff;
 	top: 0;
 	left: -10%;
 }
 .k {
 	position: absolute;
-	width: 200px;
 	bottom: 60px;
-	left: -50%;
+	left: -20%;
 }
-.l {
-	position: absolute;
-	width: 200px;
-	bottom: 60px;
-	left: 50%;
+.m {
+	background: white;
+	border-radius: 100%;
 }
