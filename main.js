@@ -11,3 +11,14 @@ menu.addEventListener('click', () => {
 ball.addEventListener('click', () => {
 	balls.style.display = "none";
 });
+var tall = window.innerHeight;
+var wide = window.innerWidth;
+var x = 720;
+var y = 1280;
+console.log("Height: ",tall)
+console.log("Width: ",wide)
+console.log("X: ",x)
+console.log("Y: ",y)
+if (wide <= x && tall <= y) {
+	console.log("Decteck Mobile Phone Phone mode Enabled")
+}
