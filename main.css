@@ -93,9 +93,6 @@ body a {
 	top: 20%;
 	background-color: none;
 }
-.text {
-	margin-top: 100px;
-}
 .dtr {
 	height: 150px;
 	width: 100%;
@@ -154,7 +151,7 @@ body a {
 	display: flex;
 	position: absolute;
 	bottom: 50%;
-	left: -15%;
+	left: -17%;
 	color: white;
 }
 .h {
@@ -180,7 +177,7 @@ body a {
 	position: absolute;
 	color: #ffffff;
 	top: 0;
-	left: -10%;
+	left: -12%;
 }
 .k {
 	position: absolute;
@@ -190,4 +187,15 @@ body a {
 .m {
 	background-color: white;
 	border-radius: 100%;
+}
+.body {
+	background-color: #5F6368;
+}
+.l {
+	margin-top: 90px;
+}
+.stopmargin {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	margin 0px;
 }
