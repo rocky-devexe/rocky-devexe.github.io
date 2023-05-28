@@ -27,15 +27,3 @@ c.addEventListener('click', () => {
 d.addEventListener('click', () => {
 	location.href = 'https://github.com/rocky-devexe/rocky-devexe.github.io';
 });
-var tall = window.innerHeight;
-var wide = window.innerWidth;
-var a = document.getElementById("mb");
-var x = 720;
-var y = 1280;
-console.log("Height: ",tall)
-console.log("Width: ",wide)
-console.log("X: ",x)
-console.log("Y: ",y)
-if (wide <= x && tall <= y) {
-	a.innerHTML = '<div class="a">';
-}
