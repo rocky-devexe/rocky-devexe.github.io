@@ -190,12 +190,8 @@ body {
 	background-color: #5F6368;
 }
 .l {
-	margin-top: 90px;
-}
-.stopmargin {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 20px;
-	margin: 0px;
+	position: absolute;
+	margin: 0 38%;
 }
 .stopmobileuser {
 	font-family: 'Ubuntu', sans-serif;
@@ -207,4 +203,27 @@ body {
 .stopmobileuser a {
 	position: absolute;
 	bottom: 50%;
+	
+}
+.stopsmargin {
+	margin-top: 10%; 
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+.hejs {
+	position: relative;
+	
+	margin: 0 22%;
+	border-radius: 20px;
+	width: 600px;
+	height: 45px;
+	background: #4f4f4f;
+}
+.owo {
+	position: absolute;
+	left: 10px;
+	top: -20px;
+}
+.jjlkfjlksadjlkalkd {
+	color: #00eeee;
 }
