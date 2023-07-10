@@ -4,29 +4,36 @@
 		<title>Support me</title>
 		<link rel="stylesheet" type="text/css" href="mobile.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<script>
+			function imgError(image) {
+				image.onerror = "";
+				image.src = "img/missing_texture.png";
+			return true;
+			}
+		</script>
 	</head>
 	<body id="mb" class="body">
 		<div class="stopmobileuser" style="display: none;"><h1>this website is not made for mobile users only pc or tablet</h1></div>
-		<a href="https://g.dev/rockyworld"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAMAAAAKE/YAAAABWVBMVEX///9ChfQPnVj7vATqQzX6tgD6uQA5f/P/vgD6tQAEmFDqQjQOnVc1fPIAlUtBhPTpOiv0PigAml7pPS/oNSY6iP2gwfkuePJVkfRSjvT4xMCv3sfwgHfrWEv4/PpWuYkqp2rJ6NnudGmGzavsYlb60s/nLx/98O8AkETm9O3xiYD85ePV7uI1rHLznpctjP/Y5fzr8f1fl/T6wh/C1/r85qHX5f37xzL7zkt4p/b+9Nf1sKn1qKKY1bfg8uil2sBKtYBtw5npTkDyk4vtal7629f5y8i749D3urX96+mIzq3yX1CzqM6LaJ95YKR1brirWnrPTFKOtPavy/qZYY7fRj/+Oh5deNPCUWDVSUpndMezV3BPfuOQZJjBsRBPozz99t3813GjryE3oUmDrC396bBlpzi1shv83YDdtw2RrSj96KvVtg+ArPdepzuqxnLc7NH7zUb72ngWYOKSAAAHDElEQVR4nO2a2VfbRhSHkeRVthaQQOCdzRiCg/GCzRZsAyGhpSR2Q9KUpiYJhIaQlvz/D50Ri5E1ksa27J7Tc78HnoTOd+75zb13BCMjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEDBk8jm1mbkifODy9Htw+3os8EbORKJxT2KHPLEYxHb5xI7yRTL8zybSkaHpGbFfMyjqrKiKLKqemL71g9OJ1lR5DGiyCanh2do4uVuXUZFviUkq3PPrZ6MpkSevSPM86nafxWShc055UEZo6hxC+uDlBhm2yDt7HZiuLa3PJ/xGJRxsdU54nlczoqskTAfrh4MXXt/ySMrHc641kukh2uGOt9rs7XloSovbNUJygi1Pm9+eprtLLRuHeZTs4vDU47MqQrBWC/1rvl5UqF1eDG7MyTt+RnU3qxI7y10Pp+oZsjOqNqiOJRoP9kNpUnBuM9H3NSsp1OkdNxrZ/iBR3thM56WrZWRtMfU9Q6IkW5nJJM6HGhGIigZNmXWpU3TPMrydtIsGpXV6MAysr8USlscwLZ0nVBpB2mckQFN9oWnDsm4y7RpvCzbZfohI+wgJvuLPadk6KRnTL+JuodFyzNmJLvtsvJ8THFMBkaRt8y/PCs65eMuI9UDF5XRNpfu3DMs0jFnatMjI88o8qFnRHRxsm/FqZKBkJVN0gsOeZpS69ouTfbIniLTJEMPB3FfGkkkrQa5KSNoad3pu/3txzy0yiFFjhHCgVms8jy1Npvsb7K/fFpXiNscscyeXQtnZF1jqa3ZvpbWhc2fVLrzhy9bob0XNu9K7FTptdHS2uNkX0CXVkUZHXUeKFhZjj+1LPMti4cp2vOITiSf7WWy534++uX4+OjVa3nUMdNyur5E892jxlJ1bB2x+8mea5xqwgpi/PTo9eiobUaUtDxjeQ03clDlM7Ta4Qw729VkbzKaIDEYaXzl9Nc3J6PWyUin54jNmcxONkM3aVh9ad2hf/OEpjFtxlfevpJPLKKtputOYTayOMvSa2cys7TvbWoC8xhpZfz43ckJISNoIVmy+axEZrpGnxExc0j30jXJ6KwXmzn6zZSRkKrShtlItCrSFlvk6Zaoda3T+S7a9RNDH5HT8c2uktFmcTtFW+xMlab1Ff2SWRprj7//XW4XO4TCTNHmrFieZSn3EZHmI2vDFI77jIwzx6/vZ42qxAifZbphOkk3a8Sac6lX834LaVzs0z/e4KatqHuRHpPRJhHN0swaPus80XNTltK69ttXnlE1vtW3MgZPdkfp8Jjz9pRjiJFua0vv3y29dEMZ86wm4r3OVprtWxpF2y81Vt2S3qh8+JMd6196ykGakST/1IQr2q0zzhvgPn6y1aaRtjmIbfxCvti3dqtU8Po4jgsUPn8aG7PMCM1BtG55Rm3/+lpfyonzG10ZWwe+XYTH0O5PlKZpeSNFwSkftwhMI9e78wZKBvdAIPAFR5tkzVPN8VXSGCcWW5ts9piR1mUh6OO4x9bcV5wRs3YmSXWDWfNTBQQXW1gv9uJcKge9XAeBwF+fw2ZtMUx5f+lcTe2K7b/uOtrnFa+xzA/aH76PdWREzFB/4EOXALpco2JrXbY/FGaism4d+IIy8jgbIvUlAB3GSY2i8elImpZvUr84cUlIhiEjX/lb7bD+/beL6xY6jRMMdbElzU8b7asbcjIea3+7QNqYzKeuv9msXVOfRxRtqva3UeG89sq6Nfft48X37xef//6nS2VMMe+nzohfmHSKdutHwVn5Ltro581VqwdnlJHmJPkWQ9SWbKOdKJV9VMoYn69w2ZsyJteY6kKbubYsNlqNulDmzjZ6VsYU1xlabQntIxbWrQp1mX1ernLe9xfqJoo2rbawTnxFomLT5jrLXC658TfF1YkpgVJb8k+Q3nBJW2eft/Cj5YKyrt1gKIeNMEkISKsQpFMOcpX+wmykuO6n0pYEQqnpCu0L+m7OXVTGNPMCzYzUCKm+oSm0N1guuaw8okebotjCpGk0bhScj6Ev6F6YjaxdS47FFhjTGnLu2KJRMlwNs5FiXnO41vh7kPYGXQ+zATTZ7TPSfaVRMvqY2XTkGrYZEaZMNxn7TAf7ndl0rK0L1kurljc9nyhbdw+vtzLQZLRZLeYFi4xIWsP8/JlVpX3e8tXw/g0ST3ZiRgjpQKEm5wPN7IGH2UiuQdr+JIFQaFxq81HsfwHtBcLSKml54m66UTaV2ufGAtoLzbxk0JaEKYsLbmdA3FpAe2F1YrK9tEr4U6rVk1eP74duLqC9kLtmBM2PQW3w2uZGjm/iXh/G63V3Ae2FYiOPL1pM/trh20epUkCx8HHlsyF1ZltWi81mk+Yb+8ZV6bJ03hq4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/4F/Vh+X7/+BEXgAAAABJRU5ErkJggg==" width="50px" height="50px" ></img></a>
-		<a class="b" href="index.html"><div class="logo"></div></a>
-		<div class="bar">
-			<a id="a4" class="b"><img class="a" src="source.png" title="Source code" width=40 height=40></a>
-			<a id="a3" class="b"><img class="a" src="source.png" title="Support" width=40 height=40></a>
-			<a id="a2" class="b"><img class="a" src="(i).png" title="About me" width=40 height=40></a>
-			<a id="a1" class="b"><img class="a" src="download.png" title="Download" width=40 height=40></a>
-			<a id="a0" class="b"><img class="a" src="https://cdn-icons-png.flaticon.com/512/7216/7216128.png" title="Menu" width=40 height=40></a>
+		<a href="https://g.dev/rockyworld"><img src="" width="50px" height="50px" ></img></a>
+		<a class="b" id="logo"><div class="logo"></div></a>
+		<div class="bar" id="bar">
+			<a id="a4" class="b"><img class="a" src="img/source.png" title="Source code" width=40 height=40></a>
+			<a id="a3" class="b"><img class="a" src="img/missing_texture.png" title="Support" width=40 height=40></a>
+			<a id="a2" class="b"><img class="a" src="img/(i).png" title="About me" width=40 height=40></a>
+			<a id="a1" class="b"><img class="a" src="img/download.png" title="Download" width=40 height=40></a>
+			<a id="a0" class="b"><img class="a" src="img/7216128.png" title="Menu" width=40 height=40></a>
 			<div class="hej" id="c" style="display: none;">
 				<div class="opb">
 					<a id="d">
 						<div class="xb">
-							<img src="https://cdn-icons-png.flaticon.com/128/399/399274.png" width=30px height=30px>
+							<img src="img/399274.png" width=30px height=30px>
 						</div>
 					</a>
 					<div id="e"></div>
 				</div>
 			</div>
 		</div>
-		<text>174.69 eur or 20,485.78 rsd</text>
+		<text>empty</text>
 		<script src="main.js"></script>
 		<script src="mobile.js"></script>
 	</body>

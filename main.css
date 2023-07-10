@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	text-decoration: none;
 }
+body a { 
+	text-decoration: none;
+}
 .logo {
 	top: 3;
 	opacity: 0.232323232;
@@ -50,6 +53,7 @@ body {
 	color: rgb(0 0 0);
 	position: relative;
 	left: 10px;
+	
 }
 .b.fill-div {
     height: 100%;
@@ -94,7 +98,7 @@ body {
 .dtr {
 	height: 150px;
 	width: 100%;
-	background-color: gray;
+	background-color: #4f4f4f;
 	border-width: 1px;
 	border-bottom-style: solid;
 	border-top-style: solid;
@@ -102,15 +106,15 @@ body {
 	border-radius: 25px 0 0 25px;
 }
 .dtr:hover {
-	background: #afafaf;
+	background: #6f6f6f;
 }
 .dtr2:hover {
-	background: #afafaf;
+	background: #6f6f6f;
 }
 .dtr2 {
 	height: 150px;
 	width: 100%;
-	background-color: grey;
+	background-color: #4f4f4f;
 	border-width: 1px;
 	border-bottom-style: solid;
 	border-color: black;
@@ -132,6 +136,10 @@ body {
 .f2 {
 	position: relative;
 	bottom: 114px;
+	border-radius: 25px;
+}
+.f3 {
+	position: relative;
 	border-radius: 25px;
 }
 .e2 {
@@ -182,10 +190,7 @@ body {
 	bottom: 60px;
 	left: -20%;
 }
-.m {
-	background-color: white;
-	border-radius: 100%;
-}
+
 .body {
 	background-color: #5F6368;
 }

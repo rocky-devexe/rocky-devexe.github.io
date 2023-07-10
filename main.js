@@ -5,6 +5,15 @@ var c = document.getElementById("a3");
 var d = document.getElementById("a4");
 var balls = document.getElementById("c");
 var ball = document.getElementById("d");
+var logo = document.getElementById("logo");
+function imgError(image) {
+    image.onerror = "";
+    image.src = "img/missing_texture.png";
+    return true;
+}
+logo.addEventListener('click', () => {
+	location.href = 'index.html';
+});
 menu.addEventListener('click', () => {
 	if (balls.style.display === "none") {
 		balls.style.display = "block";
