@@ -1,0 +1,49 @@
+.aa {
+	float: left;
+	color: white;
+	font-size: 20px;
+	width: 150px;
+	text-decoration: none;
+	background-color: #4f4f4f;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: black;
+	border-radius: 25px;
+}
+.f2 {
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: black;
+	border-radius: 25px;
+	float: left;
+	border-radius: 25px;
+}
+.f1 {
+	overflow: hidden;
+	width:100%;
+}
+.f3 {
+	overflow: hidden;
+	width:100%;
+}
+.ab {
+	height: 150px;
+	width: 150px;
+	background-color: #4f4f4f;
+	border-width: 1px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: black;
+	border-radius: 25px 0 0 25px;
+}
+.ab:hover {
+	background: #6f6f6f;
+}
+.ac {
+	width: 10px;
+}
+.space {
+	height: 75px;
+}
