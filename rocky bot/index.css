@@ -1,0 +1,57 @@
+.div1 {
+	width: 300px;
+	background-color: #36393f;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgb(5, 5, 5);
+}
+.icon {
+	position:hidden;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.name {
+	position:hidden;
+	margin: -110 0 200 100;
+	width: 100px;
+	height: 25px;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+}
+.name1 {
+	position:hidden;
+	margin: -200 0 200 100;
+	width: 100px;
+	height: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+.span {
+	width: 10px;
+	height: 10px;
+	background-color: #43b581;
+	border-radius: 50%;
+	display:inline-block;
+	margin-right: 5px;
+}
+.button {
+	display: block;
+	width: 93%;
+	padding: 10px;
+	margin: 10 0 0 0;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	background-color: #7289da;
+}
+.text1 {
+	position:hidden;
+	margin: -130 0 0 0;
+	color: #fff;
+	text-align: center;
+}

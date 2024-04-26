@@ -34,6 +34,6 @@ b.addEventListener('click', () => {
 //	location.href = 'support.html';
 //});
 d.addEventListener('click', () => {
-	console.log("i lost my acc :(")
-	//location.href = 'https://github.com/rocky-devexe/rocky-devexe.github.io';
+	//console.log("i lost my acc :(")
+	location.href = 'https://github.com/rocky-devexe/rocky-devexe.github.io';
 });
