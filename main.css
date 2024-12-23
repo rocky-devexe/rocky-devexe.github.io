@@ -1,11 +1,12 @@
 ﻿.f1 {
 	white-space: nowrap;
 }
-body { 
+body {
+	padding: 0px;
 	margin: 0;
 	text-decoration: none;
-    color: #ffffff;
-    background-color: #5F6368;
+	color: #ffffff;
+	background-color: #5F6368;
 }
 body a {
 	border-width: 0px;
@@ -98,11 +99,13 @@ body a {
 	height: 50px;
 }
 .cmnt {
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	margin: auto;
+	margin-top: -16px;
 	background-color: #808080;
 	width: 50%;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 }
 .f2 {
 	border-radius: 10px;
