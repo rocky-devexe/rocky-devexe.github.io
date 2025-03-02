@@ -3,12 +3,13 @@
 	white-space: nowrap;
 	background-color: #808080;
 	margin-bottom: 5px;
-	height: 50px;
+	height: 70px;
 	width: 100%;
 }
 body {
+	margin: 0px;
 	padding: 0px;
-	margin: 0;
+	margin-top: -16px;
 	text-decoration: none;
 	color: #ffffff;
 	background-color: #5F6368;
@@ -79,11 +80,13 @@ body a {
 }
 
 .f3 {
+	font-family: Arial;
 	overflow: visible;
+	font-size: 30px;
 	height: 50px;
 	display: inline;
 	position: absolute;
-	margin-top: 15px;
+	margin-top: 17px;
 	margin-left: 5px;
 	width: 500px;
 }
@@ -105,16 +108,40 @@ body a {
 	height: 20px;
 }
 .cmnt {
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
-	margin: auto;
-	margin-top: -16px;
+	display: block;
 	background-color: #808080;
-	width: 40%;
+	width: 100%;
 	text-align: center;
+	height: 60px;
+	font-size: 20px;
 }
 .f2 {
 	border-radius: 10px;
 	text-decoration: none;
 	border-width: 0px;
+}
+.links {
+	margin-top: 16px;
+	font-family: Arial;
+	padding-top: 17px;
+}
+.links * {
+	padding-right: 20px;
+}
+#Welcometext {
+	text-shadow: 
+	-1px -1px 0 black,
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black;
+}
+#rctlolniceepicsrlg {
+	text-shadow: 
+	-1px -1px 0 black,
+	1px -1px 0 black,
+	-1px 1px 0 black,
+	1px 1px 0 black;
+}
+.yes *{
+	font-size: 25px;
 }
